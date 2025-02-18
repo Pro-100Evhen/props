@@ -1,0 +1,15 @@
+.card__item {
+   padding: 12px 20px;
+   background-color: #b3d8a8;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+h2,
+p {
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}

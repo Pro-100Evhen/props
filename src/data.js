@@ -15,7 +15,7 @@ export const cardsData = [
       id: 3,
       title: "Гірський пейзаж",
       description: "Краєвид величних гір під яскравим сонячним небом.",
-      image: "https://images.unsplash.com/photo-1600493304552-106fc07c2883?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop",
    },
    {
       id: 4,
