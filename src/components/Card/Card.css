@@ -10,6 +10,23 @@
    flex-direction: column;
 }
 h2,
-p {
+p,
+button {
    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card__button {
+   background-color: #fbffe4;
+   transition: all 0.3s ease 0s;
+   padding: 10px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+   color: #a3d1c6;
+   border: 2px solid #a3d1c6;
+   font-weight: 600;
+   font-size: 22px;
+}
+.card__button:hover {
+   background-color: #a3d1c6;
+   color: #fbffe4;
 }

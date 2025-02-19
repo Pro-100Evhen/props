@@ -1,11 +1,8 @@
 import React from "react";
 import "./CardList.css";
 import Card from "../Card/Card";
-import { cardsData } from "../../data";
 
-const CardList = () => {
-   const cards = cardsData;
-
+const CardList = ({ cards }) => {
    return (
       <div className="card-list">
          {cards.map((card) => {

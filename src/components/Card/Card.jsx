@@ -7,6 +7,14 @@ const Card = ({ title, image, description }) => {
          <h2>{title}</h2>
          <img src={image} alt={title} />
          <p>{description}</p>
+         <button
+            className="card__button"
+            onClick={() => {
+               alert(title);
+            }}
+         >
+            дізнатись більше
+         </button>
       </div>
    );
 };
